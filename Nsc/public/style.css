@@ -1,0 +1,130 @@
+#tt input,.color input{
+    border: 2px solid black;
+    padding: 38.5px;
+    background-color: white;
+    font-size: 30px;
+}
+
+#tabel{
+    margin-left:335px;
+}
+
+html body{
+    background-image: url("Background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+}
+
+#gambar{
+    width: 1200px;
+    height: 600px;
+    margin-top: 9%;
+}
+
+.hidden{
+    display: none;
+}
+
+.none{
+    visibility: hidden;
+}
+
+#pertanyaan{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    margin-bottom: -41px;
+}
+
+#progressBar{
+    border: 2px solid black;
+    background-color: #fff;
+    /* border-radius: 20px; */
+    font-size: 50px;
+    margin-left: 47.5%;
+    padding-right: 27px;
+    padding-left: 27px;
+}
+
+#center{
+    transform: translateY(-820%)
+}
+
+#onstart{
+    border: 2px solid black;
+    background-color: #fff;
+    /* border-radius: 20px; */
+    font-size: 50px;
+    margin-left: 43.7%;
+    padding-right: 27px;
+    padding-left: 27px; 
+}
+
+#onstart2{
+    border: 2px solid black;
+    background-color: #fff;
+    /* border-radius: 20px; */
+    font-size: 50px;
+    margin-left: 43.7%;
+    padding-right: 27px;
+    padding-left: 27px; 
+}
+
+#salah,#benar{
+    border: 2px solid black;
+    background-color: #fff;
+    /* border-radius: 20px; */
+    font-size: 50px;
+    padding-right: 27px;
+    padding-left: 27px; 
+    padding-bottom: 10px;
+}
+
+#salah{
+    transform: translate(275%,330%)
+}
+
+#benar{
+    transform: translate(175%,330%)
+}
+
+#color{
+    transform: translate(85%,300%)
+}
+
+.red{
+    background-color: red !important;
+}
+
+.blue{
+    background-color: blue !important;
+}
+
+.yellow{
+    background-color: yellow !important;
+}
+
+.green{
+    background-color: green !important;
+}
+
+.orange{
+    background-color: purple !important;
+}
+
+.white{
+    background-color: white !important
+}
+
+.changeColor ul{
+    list-style: none;
+}
+
+.changeColor ul li input{
+    padding-right: 18px;
+}
